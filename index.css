@@ -1,0 +1,105 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Big Shoulders Display', cursive;
+}
+
+.flex, .col-flex {
+    display: flex;
+}
+
+.col-flex {
+    flex-direction: column;
+}
+
+main {
+    justify-content: center;
+
+}
+
+.section1 {
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.section1_img, .section2_img, .section3 img{
+    max-width: 100%;
+}
+
+.section3 img {
+    margin-top: 20px;
+}
+
+.section1_article, .section2, .section3 {
+    padding: 20px;
+}
+
+.section1_title {
+    width: 100%;
+}
+
+.section1_para, .section2_p, .section3_p, .footer_p {
+    font-family: 'Outfit', sans-serif;
+    font-size: small;
+    color: #444;
+    line-height: 25px;
+}
+
+.section1_para, .section1_arrowdiv {
+    margin-top: 35px;
+}
+
+.section1_button2 {
+    max-height: 100%;
+    width: 10%;
+    border: 1px solid #D5966C;
+    background-color: #D5966C;
+}
+
+.section1_button {
+    background-color: black;
+    color: white;
+    font-size: x-large;
+    letter-spacing: 2px;
+    padding: 5%;
+    font-weight: bold;
+}
+
+.section2 {
+    padding-top: 75px;
+    flex-wrap: wrap;
+}
+
+.section2_h1, .section3_h1 {
+    font-size: xx-large;
+    font-weight: 900;
+    padding: 15px 0;
+}
+
+.section3_h1, .section3_p, .footer_p {
+    color: white;
+}
+
+.section3_div {
+    background-color: black;
+    padding: 2rem 1rem;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+footer {
+    background-color: black;
+    padding: 50px 10%;
+}
+
+.footer_title {
+    width: 40%;
+}
+
+.footer_p {
+    padding: 20px 0;
+}
+
+.footer_icons img {
+    padding-right: 10%;
+}
