@@ -38,31 +38,61 @@ main {
     width: 100%;
 }
 
-.section1_para, .section2_p, .section3_p, .footer_p {
+.section1_para, .section2_p, .section3_p, .footer_p, .location_footer_p {
     font-family: 'Outfit', sans-serif;
     font-size: small;
     color: #444;
     line-height: 25px;
 }
 
+.section1_para, .section2_p, .section3_p, .location_footer_p .footer_p, .location_p {
+    font-family: 'Outfit', sans-serif;
+    font-size: small;
+    line-height: 25px;
+}
+
+.location_p {
+    padding-bottom: 15px;
+    color: white;
+}
+
 .section1_para, .section1_arrowdiv {
     margin-top: 35px;
 }
 
-.section1_button2 {
+.section1_button2, .nav_button {
     max-height: 100%;
-    width: 10%;
+    width: 20%;
     border: 1px solid #D5966C;
     background-color: #D5966C;
 }
 
-.section1_button {
+.section1_button, .nav_button2 {
     background-color: black;
-    color: white;
-    font-size: x-large;
     letter-spacing: 2px;
+}
+
+.nav_button2 {
+    padding: 10px;
+    width: max-content;
+}
+
+.section1_button {
     padding: 5%;
+}
+
+.section1_button a, .nav_button2 a {
+    text-decoration: none;
     font-weight: bold;
+    color: white;
+}
+
+.nav_button2 a {
+    font-size: medium;
+}
+
+.section1_button a {
+    font-size: x-large;
 }
 
 .section2 {
@@ -70,21 +100,38 @@ main {
     flex-wrap: wrap;
 }
 
-.section2_h1, .section3_h1 {
+.section2_h1, .section3_h1, .location_h1 {
     font-size: xx-large;
     font-weight: 900;
     padding: 15px 0;
 }
 
-.section3_h1, .section3_p, .footer_p {
+.section3_h1, .section3_p, .footer_p, .location_div, .location_h1 {
     color: white;
 }
 
-.section3_div {
+.section3_div, .location_section {
     background-color: black;
     padding: 2rem 1rem;
-    margin-top: 20px;
+}
+
+.section3_div {
     margin-bottom: 50px;
+}
+
+.section3_div {
+    margin-top: 20px;
+}
+
+.location_div h4 {
+    color: #D5966C;
+    padding: 20px 0;
+    font-size: large;
+}
+
+.location_footer {
+    background-color: #D5966C;
+    color: black;
 }
 
 footer {
@@ -96,10 +143,35 @@ footer {
     width: 40%;
 }
 
-.footer_p {
+.footer_p, .location_footer_p {
     padding: 20px 0;
 }
 
-.footer_icons img {
+.footer_icons img, .location_footer_icons img {
     padding-right: 10%;
+}
+
+.location_footer_icons img {
+    color: black;
+}
+
+nav {
+    position: absolute;
+    min-width: 90%;
+}
+
+.locationimage {
+    max-width: 100%;
+}
+
+button:hover {
+    border: 2px solid #D5966C;
+}
+
+button:active {
+    padding: 2px;
+}
+
+button {
+    cursor: pointer;
 }
