@@ -1,0 +1,192 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Big Shoulders Display', cursive;
+}
+
+.flex, .col-flex {
+    display: flex;
+}
+
+.col-flex {
+    flex-direction: column;
+}
+
+main {
+    justify-content: center;
+
+}
+
+.section1 {
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.section1_img, .section2_img, .section3 img{
+    max-width: 100%;
+}
+
+.section3 img {
+    margin-top: 20px;
+}
+
+.section1_article, .section2, .section3 {
+    padding: 20px;
+}
+
+.section1_title {
+    width: 100%;
+}
+
+.section1_para, .section2_p, .section3_p, .footer_p, .location_footer_p {
+    color: #444;
+}
+
+.section1_para, .section2_p, .section3_p, .location_footer_p, .footer_p, .location_p {
+    font-family: 'Outfit', sans-serif;
+    font-size: small;
+    line-height: 25px;
+}
+
+.location_p {
+    padding-bottom: 15px;
+    color: white;
+}
+
+.section1_para, .section1_arrowdiv {
+    margin-top: 35px;
+}
+
+.section1_button2, .nav_button {
+    max-height: 100%;
+    width: 20%;
+    border: 1px solid #D5966C;
+    background-color: #D5966C;
+}
+
+.section1_button, .nav_button2 {
+    background-color: black;
+    letter-spacing: 2px;
+}
+
+.nav_button2 {
+    padding: 10px;
+    width: max-content;
+}
+
+.section1_button {
+    padding: 5%;
+}
+
+.section1_button a, .nav_button2 a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+.nav_button2 a {
+    font-size: medium;
+}
+
+.section1_button a {
+    font-size: x-large;
+}
+
+.section2 {
+    padding-top: 75px;
+    flex-wrap: wrap;
+}
+
+.section2_h1, .section3_h1, .location_h1 {
+    font-size: xx-large;
+    font-weight: 900;
+    padding: 15px 0;
+}
+
+.section3_h1, .section3_p, .footer_p, .location_div, .location_h1 {
+    color: white;
+}
+
+.section3_div, .location_section {
+    background-color: black;
+    padding: 2rem 1rem;
+}
+
+.section3_div {
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+
+.location_div h4 {
+    color: #D5966C;
+    padding: 20px 0;
+    font-size: large;
+}
+
+.location_footer {
+    background-color: #D5966C;
+    color: black;
+}
+
+footer {
+    background-color: black;
+    padding: 50px 10%;
+}
+
+.footer_title {
+    width: 40%;
+}
+
+.footer_p, .location_footer_p {
+    padding: 20px 0;
+}
+
+.footer_icons img, .location_footer_icons img {
+    padding-right: 10%;
+}
+
+.location_footer_icons img {
+    color: black;
+}
+
+nav {
+    position: absolute;
+    min-width: 90%;
+    align-content: center;
+}
+
+.locationimage {
+    max-width: 100%;
+}
+
+button:hover {
+    background-color: #D5966C;
+    border: 1px solid #D5966C;
+}
+
+.nav_button:hover {
+    background-color: black;
+    border: 1px solid black;
+}
+
+button:active {
+    padding: 2px;
+}
+
+button {
+    cursor: pointer;
+}
+
+.nav_button {
+    max-width: 5%;
+    align-items: center;
+    justify-content: center;
+}
+
+.section1_arrow {
+    max-height: 90%;
+}
+
+.desktopclass {
+    display: none;
+}
