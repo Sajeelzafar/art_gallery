@@ -39,13 +39,10 @@ main {
 }
 
 .section1_para, .section2_p, .section3_p, .footer_p, .location_footer_p {
-    font-family: 'Outfit', sans-serif;
-    font-size: small;
     color: #444;
-    line-height: 25px;
 }
 
-.section1_para, .section2_p, .section3_p, .location_footer_p .footer_p, .location_p {
+.section1_para, .section2_p, .section3_p, .location_footer_p, .footer_p, .location_p {
     font-family: 'Outfit', sans-serif;
     font-size: small;
     line-height: 25px;
@@ -117,9 +114,6 @@ main {
 
 .section3_div {
     margin-bottom: 50px;
-}
-
-.section3_div {
     margin-top: 20px;
 }
 
