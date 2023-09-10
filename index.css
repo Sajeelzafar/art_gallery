@@ -152,6 +152,7 @@ footer {
 nav {
     position: absolute;
     min-width: 90%;
+    align-content: center;
 }
 
 .locationimage {
@@ -159,7 +160,13 @@ nav {
 }
 
 button:hover {
-    border: 2px solid #D5966C;
+    background-color: #D5966C;
+    border: 1px solid #D5966C;
+}
+
+.nav_button:hover {
+    background-color: black;
+    border: 1px solid black;
 }
 
 button:active {
@@ -168,4 +175,18 @@ button:active {
 
 button {
     cursor: pointer;
+}
+
+.nav_button {
+    max-width: 5%;
+    align-items: center;
+    justify-content: center;
+}
+
+.section1_arrow {
+    max-height: 90%;
+}
+
+.desktopclass {
+    display: none;
 }

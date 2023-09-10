@@ -7,6 +7,7 @@
 
     .section1_img {
         width: 55%;
+        content: url(./resources/tablet/image-hero@2x.jpg) !important;
         object-fit: cover;
     }
 
@@ -84,15 +85,6 @@
 
     nav {
         margin-left: 7.5%;
-        align-content: center;
-    }
-
-    .nav_button {
-        max-width: 5%;
-    }
-
-    .section1_arrow {
-        max-height: 90%; 
     }
 
     .nav_button, .nav_button2 {

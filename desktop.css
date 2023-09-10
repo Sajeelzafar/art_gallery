@@ -1,3 +1,73 @@
-@media only screen and (min-device-width: 960px) {
+@media (min-width: 960px) {
+    .desktopclass{
+        display: inline;
+        width: 75%;
+        height: 100%;
+        background-color: black;
+    }
+
+    .section1_img {
+        content: url(./resources/desktop/image-hero@2x.jpg) !important;
+    }
+
+    .section2 {
+        max-width: 100%;
+        flex-wrap: nowrap;
+        padding: 10rem 7.5rem 0;
+    }
+
+    .section3 {
+        padding: 0 7.5rem 5rem;
+    }
+
+    .section2_img {
+        content: url(./resources/desktop/image-grid-1@2x.jpg);
+    }
+
+    .section2_div2 {
+        padding-right: 10rem;
+    }
+
+    .locationimage {
+        max-height: 800px;
+        object-fit:contain;
+        background-color: grey;
+    }
+
+    .nav_button, .nav_button2 {
+        padding-top: 1rem !important;
+        padding-bottom: 1rem !important;
+    }
+
+    .location_section {
+        flex-direction: row !important;
+        align-items: flex-start;
+        padding: 7rem 0;
+    }
+
+    .location_h1 {
+        font-family: 'Big Shoulders Display', cursive;
+        font-size: 900;
+        width: 40%;
+        padding-left: 10%;
+    }
+
+    .location_div {
+        width: 50%;
+    }
+
+    .location_div h4 {
+        font-size: x-large;
+    }
+
+    .location_p {
+        padding-right: 25%;
+        font-size: large;
+    }
+    
+    footer {
+        padding: 5% 5%;
+        margin-top: 0;
+    }
     
 }
