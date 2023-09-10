@@ -10,7 +10,9 @@ The project represents the art gallery page. The home and location page of the w
 
 ## Live Demo (if available)
 
-[Live Demo Link]()
+[Index Page](https://sajeelzafar.github.io/art_gallery/index.html)
+
+[Location Page](https://sajeelzafar.github.io/art_gallery/location.html) 
 
 ## Getting Started
 
